@@ -133,7 +133,7 @@ https://github.com/paulgaje2-del/Lab-Act9
 
 ## Render Deployment
 
-The repository includes a Render Blueprint in `render.yaml`. In Render, create a new Blueprint Instance and select this repository. Render will install dependencies with `npm install` and start the service with `npm start`; the server listens on Render's assigned `PORT`.
+In Render, create a **New Web Service** and connect this repository. Leave the Root Directory blank, set the build command to `npm install`, and set the start command to `npm start`. The server listens on Render's assigned `PORT`.
 
 **Public API URL:** Add your actual Render deployment URL after deployment.
 
