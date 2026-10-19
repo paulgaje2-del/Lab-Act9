@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: student-records-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start

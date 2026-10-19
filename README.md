@@ -43,14 +43,6 @@ npm install
 npm start
 ```
 
-Make sure `package.json` contains the following start script:
-
-```json
-"scripts": {
-  "start": "node server.js"
-}
-```
-
 The API will run locally at:
 
 `http://localhost:3000`
@@ -140,6 +132,8 @@ Use the appropriate request method and JSON body for each operation.
 https://github.com/paulgaje2-del/Lab-Act9
 
 ## Render Deployment
+
+The repository includes a Render Blueprint in `render.yaml`. In Render, create a new Blueprint Instance and select this repository. Render will install dependencies with `npm install` and start the service with `npm start`; the server listens on Render's assigned `PORT`.
 
 **Public API URL:** Add your actual Render deployment URL after deployment.
 
